@@ -2,7 +2,7 @@ package alura.java.desafios;
 import java.util.Scanner;
 
 public class Loop {
-    public void main(){
+    public static void main(){
     Scanner leitura = new Scanner(System.in);
     double mediaAvaliacao = 0;
     double nota;

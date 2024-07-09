@@ -2,7 +2,7 @@ package alura.java.desafios;
 import java.util.Scanner;
 
 public class Leitura {
-    public void main(){
+    public static void main(){
         Scanner Leitura = new Scanner(System.in);
         System.out.println("Quais seus livros favoritos?");
         String filme = Leitura.nextLine();
