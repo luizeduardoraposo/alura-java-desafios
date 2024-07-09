@@ -31,8 +31,12 @@ public class DesafioAlura003 {
             } else if(opcao == 2){
                 System.out.println("Qual o valor deseja transferir?");
                 double valor = leitura.nextDouble();
-                if(valor > saldo){
-                    System.out.println("Não há saldo para realizar a ")
+                if(valor > saldo) {
+                    System.out.println("Não há saldo para realizar a transferência");
+                }else{
+                      saldo -= valor;
+                      System.out.println("Novo saldo");
+                    }
                 }
             }
 
