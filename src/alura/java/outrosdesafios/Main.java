@@ -15,5 +15,9 @@ public class Main {
 
         conta.setSaldo(123);
         System.out.println(conta.getSaldo());
+
+        conta.saca(23);
+        System.out.println(conta.getSaldo());
+
     }
 }
