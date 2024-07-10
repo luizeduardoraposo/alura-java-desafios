@@ -1,7 +1,7 @@
 package alura.java.outrosdesafios;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main() {
         Conta conta = new Conta();
 
         conta.deposita(275);
